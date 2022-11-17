@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang ="en" dir="ltr">
+
+<head>
+	<meta charset ="utf-8">
+
+	<title>Make Reservations</title>
+	
+    <style>
+        
+    body{
+	background-color:white;
+	}
+    
+        .center{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            width:auto;
+        }
+    nav{
+        border:2px solid #333;
+    }
+        
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0 ;
+        font-size: 180%;
+        background-color:blue;
+        text-align: center;
+        justify-content: space-evenly;
+	}
+        
+    nav li{
+        display: inline-block;
+        list-style-type: none;
+        
+    }
+        nav li:hover{
+            background-color: beige;
+            color:coral;
+        }
+        
+     nav a{
+         text-decoration: none;
+         color:white;
+         font-size: 1.5 rem;
+         font-weight: 400;
+         display: block;
+         padding: 1rem 0.5rem;    
+         
+	}
+        nav a:focus{
+            background-color: white;
+            color:black;
+        }
+        nav a:hover{
+            color:orange;
+        }
+
+    </style>   
+</head>
+
+<body>
+      <a href = ShriGanesh.html> <img id="p1" src="C:\Users\sauga\Desktop\Shriganesh\Logos\11.png" alt="Shri Ganesh Logo Click for Home" class ="center"></a>
+  
+   <nav role ="navigation" aria-label="main menu">
+                <ul class ="navbar">
+                    <li> <a href = ShriGanesh.html> Home </a></li>
+                    <li> <a href = Story.html> Our Story</a></li> 
+                    <li> <a href = Reserve.html> Make Reservations</a></li>
+                    <li> <a href = Menu.html> Menu </a></li>
+                    <li> <a href = Hours.html> Hours </a></li>
+                    <li> <a href = Events.html> Events Schedule </a></li>
+                </ul>
+        </nav>
+
+<main>
+    
+    <div class="container">
+    <div style="text-align:center">
+        <h2>Make your Reservation!</h2>
+        <h3>Somy corny line</h3>
+        </div>
+	<form action="Complete.html" method="get"class="grid">
+	<label> Name </label>
+	<input name ="name" id ="name" type ="text" required>
+    <br>
+
+	<label>Email</label>
+	<input name ="email" id ="email" type ="email" value=" ">
+    <br>
+	
+	<label>Phone Number</label>
+	<input name ="number" id ="number" type="tel" required>
+    <br>
+	
+	<label>Date</label>
+	<input name ="date" id ="date" type ="date" required>
+    <br>
+	
+	<label>Time</label>
+	<input name="time" id ="time" required>
+    <br>
+	
+	<label> Note:</label>
+	<input name ="note" id ="name" type="textarea" cols=30 row=20>
+    <br>
+
+	<button type ="submit"> Confirm Reservation</button>
+   
+
+    </form>
+    </div>
+    
+</main>
+</body>
+</html>
